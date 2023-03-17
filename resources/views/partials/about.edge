@@ -1,0 +1,51 @@
+ <div class="tab about-tab">
+  <h1 class="border-bottom tab-title mb-4">About Arg8</h1>
+  
+  <div class="pb-5 badges">
+    <a href="https://github.com/textury" target="_blank" rel="nofollow">
+      <img alt="GitHub Org's stars" src="https://img.shields.io/github/stars/textury?label=Textury&logo=github&style=for-the-badge">
+    </a>
+    <a href="https://discord.gg/GtS2NzVAJG" target="_blank" rel="nofollow">
+      <img src="https://dcbadge.vercel.app/api/server/GtS2NzVAJG" alt="Join us on Discord">
+    </a>
+    <a href="https://twitter.com/TexturyOrg" target="_blank" rel="nofollow">
+      <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/TexturyOrg?label=%40TexturyOrg&logo=Twitter&style=for-the-badge">
+    </a>
+  </div>
+
+  <div>
+    @component('components/about', {
+      title: 'What is Arg8?'
+    })
+      <p><strong>Arg8</strong> is a light incentivized gateway for the <a href="https://arweave.org" target="_blank">Arweave ecosystem</a>, and the first ever P3 (Permaweb Payment Protocol) implementation. <a href="https://arwiki.wiki/#/en/gateways" target="_blank">Gateways</a> are the entry point are the entry point to the Permaweb, letting consumers and dapps interact with permaweb conveniently.</p>
+    @end
+
+    @component('components/about', {
+      title: 'Why build a new Gateway?'
+    })
+      <p>Before Arg8, an incentivized and decentralized gateway option for the Arweave network wasn't available. This means, although the underlying Arweave network is entirely decentralized, the gateway infrastructure depended on a handful of gateway providers.</p>
+      <p>The Arg8 network will be resistant to single gateway failures, further decentralizing how users connect to the arweave permaweb.</p>
+      <p>The P3 protocol will ensure independent parties are properly incentivized to run their own light gateways as well.</p>
+    @end
+
+    @component('components/about', {
+      title: 'Key features of <strong>Arg8</strong>'
+    })
+      <ul class="features">
+        <li>Easy to setup</li>
+        <li>You can run Arg8 anywhere! Locally, on any online server, no limitations.</li>
+        <li>Chunks can be stored locally. Or use storage services, such as: S3, DO Spaces, and GCS.</li>
+        <li>Flexible indexing - All, by App Name or at random.</li>
+        <li><strong>P3 Ready!</strong> Arg8 is the first ever P3 implementation in the ecosystem. Earn revenue to help reduce the costs of running a Gateway.</li>
+      </ul>  
+    @end
+
+    @component('components/about', {
+      title: 'Join the community!'
+    })
+      <p>If you're interested in learning more about Arg8 and all the tools, libraries and applications built by Textury, join our <a href="https:/discord.gg/GtS2NzVAJG" target="_blank" rel="nofollow">Discord Server</a>.</p>
+    @end
+
+  </div>
+
+</div>

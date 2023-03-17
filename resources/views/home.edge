@@ -1,0 +1,30 @@
+@include('partials/head')
+<body>
+  @include('partials/header')
+
+  <section>
+    <div class="container my-5">
+      <div class="row justify-content-start">
+        <div class="col-3">
+          <ul class="list-unstyled">
+            <li class="tab-li li-active">
+              <a class="p-2 " href="#!">Fund Account</a>
+            </li>
+            <li class="tab-li">
+            <a class="p-2 " href="#about">About Arg8</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-9">
+          <div class="card border-custom">
+            <div class="card-body">
+              @include('partials/fund')
+             @include('partials/about')
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

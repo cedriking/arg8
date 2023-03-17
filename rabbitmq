@@ -1,0 +1,7 @@
+FROM rabbitmq:3.8-management-alpine
+
+RUN wget "https://github.com/noxdafox/rabbitmq-message-deduplication/releases/download/0.5.3/elixir-1.12.2.ez"
+RUN wget "https://github.com/noxdafox/rabbitmq-message-deduplication/releases/download/0.5.3/rabbitmq_message_deduplication-0.5.3.ez"
+
+RUN cp *.ez /plugins
+RUN rabbitmq-plugins enable rabbitmq_message_deduplication

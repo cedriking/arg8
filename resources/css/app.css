@@ -1,0 +1,120 @@
+body {
+  background-color: #f4f7fb;
+}
+
+.btn-custom {
+  border-radius: 3px;
+  background-color: #206bc4;
+  border-color: #206bc4;
+  color: #fff;
+}
+
+.tab-li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.tab-li a.active {
+  background-color: #e9eff8;
+  border-radius: 3px;
+}
+
+.border-custom {
+  border-radius: 3px !important;
+}
+
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
+}
+
+a {
+  color: #000;
+}
+
+.features li:before {
+  content: '\2605';
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.about-title {
+  padding-left: 1.5rem;
+}
+
+.about-title:before {
+  content: '\2192';
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.small {
+  font-size: 0.9rem;
+}
+
+.note {
+  font-size: 0.8rem;
+}
+
+.node-response {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    background-color: RGBA(220, 53, 69, var(--bs-bg-opacity, 1));
+    color: white;
+  }
+
+  to {
+    background-color: #fff;
+    color: black;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    background-color: RGBA(220, 53, 69, var(--bs-bg-opacity, 1));
+    color: white;
+  }
+
+  to {
+    background-color: #fff;
+    color: black;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    background-color: RGBA(220, 53, 69, var(--bs-bg-opacity, 1));
+    color: white;
+  }
+
+  to {
+    background-color: #fff;
+    color: black;
+  }
+}
+
+.fadeIn {
+  padding: 5px;
+  -webkit-animation: fadeIn 1s ease-in-out 0s;
+  -moz-animation: fadeIn 1s ease-in-out 0s;
+  -o-animation: fadeIn 1s ease-in-out 0s;
+  animation: fadeIn 1s ease-in-out 0s;
+}
+
+.badges a {
+  text-decoration: none;
+}
+
+.logo {
+  height: 64px;
+  padding-top: 12px;
+}

@@ -1,0 +1,29 @@
+{
+  "extends": "./node_modules/adonis-preset-ts/tsconfig",
+  "include": ["**/*"],
+  "exclude": ["node_modules", "build"],
+  "compilerOptions": {
+    "outDir": "build",
+    "rootDir": "./",
+    "sourceMap": true,
+    "paths": {
+      "App/*": ["./app/*"],
+      "Config/*": ["./config/*"],
+      "Contracts/*": ["./contracts/*"],
+      "Database/*": ["./database/*"]
+    },
+    "types": [
+      "@adonisjs/core",
+      "@adonisjs/repl",
+      "@adonisjs/lucid",
+      "adonis5-scheduler",
+      "@adonisjs/redis",
+      "adonis5-sentry",
+      "adonis5-prometheus",
+      "adonis-rabbit",
+      "@adonisjs/drive-s3",
+      "@adonisjs/drive-gcs",
+      "@adonisjs/view"
+    ]
+  }
+}
